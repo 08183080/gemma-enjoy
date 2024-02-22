@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-tokenizer = AutoTokenizer.from_pretrained("google/gemma-2b")
-model = AutoModelForCausalLM.from_pretrained("google/gemma-2b")
+tokenizer = AutoTokenizer.from_pretrained("C:\\gemma-2b")
+model = AutoModelForCausalLM.from_pretrained("C:\\gemma-2b")
 
 input_text = "Write me a poem about Machine Learning."
 input_ids = tokenizer(input_text, return_tensors="pt")
