@@ -1,6 +1,3 @@
 # Gemma-enjoy
-enjoy a lightweighted llm model: gemma.
 ## Experience-log
-- [x] 2/22, windows上开始为体验gemma-2做准备
-- [x] 装好transformer和torch包后, 但是下载模型失败, 可恶, 网络, 手动下载模型吧
-
+- [x] 2/22, 本地下载模型初步跑了2B模型|ollama更方便去跑这些模型
